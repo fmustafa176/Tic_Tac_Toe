@@ -2,7 +2,7 @@ import time     # makes the game look better
 import random   # for toss
 def print_board(board):   # prints the grid for the game
     print(f" {board[0]} | {board[1]} | {board[2]} \n---+---+---\n {board[3]} | {board[4]} | {board[5]} \n---+---+---\n {board[6]} | {board[7]} | {board[8]} ")
-
+# uploaded 
 def is_winner(board, symbol):   # checks if any winning conditions are met after every turn. Returns True if they are
     # check the rows
     if board[0] == board[1] == board[2] == symbol:
